@@ -10,7 +10,8 @@ class HomePAge extends StatefulWidget {
 class _HomePAgeState extends State<HomePAge> {
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Scaffold(
+      appBar: AppBar(title: Text('Home page')),
       
     );
   }

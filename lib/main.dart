@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:hackathon/screens/home.dart';
+import 'package:hackathon/screens/signup.dart';
 import 'package:hackathon/screens/welcomepage.dart';
 
 void main() {
@@ -18,7 +20,16 @@ class MyApp extends StatelessWidget {
         
         primarySwatch: Colors.blue,
       ),
-      home: const WelcomePage(),
+      darkTheme:ThemeData(
+        
+      ) ,
+      //home: const WelcomePage(),
+      initialRoute: '/',
+      routes: {
+        '/':(context) => WelcomePage(),
+        '/home':(context) => HomePAge(),
+        '/signup':(context) => SignupPage()
+      },
     );
   }
 }
