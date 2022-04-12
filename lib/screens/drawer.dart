@@ -53,7 +53,7 @@ class _DrawerPageState extends State<DrawerPage> {
             ),
             ListTile(
               leading: const Icon(
-                Icons.people,
+                Icons.book,
                 color: Colors.white,
               ),
               title: const Text(
@@ -69,7 +69,7 @@ class _DrawerPageState extends State<DrawerPage> {
             ),
             ListTile(
               leading: const Icon(
-                Icons.book,
+                Icons.app_registration_rounded,
                 color: Colors.white,
               ),
               title: const Text(
@@ -83,7 +83,7 @@ class _DrawerPageState extends State<DrawerPage> {
             ),
             ListTile(
               leading: const Icon(
-                Icons.sell,
+                Icons.rate_review,
                 color: Colors.white,
               ),
               title: const Text(
@@ -99,7 +99,7 @@ class _DrawerPageState extends State<DrawerPage> {
             ),
             ListTile(
               leading: const Icon(
-                Icons.read_more,
+                Icons.privacy_tip,
                 color: Colors.white,
               ),
               title: const Text(
